@@ -1,16 +1,12 @@
-\# VisionVault
+﻿# SnapGrid
 
+SnapGrid is a responsive image search web application designed to help users quickly discover high-resolution visual content.
 
+## Features (Part 1 - UI & Scaffold)
+**Responsive Layout:** Built with a modern dark emerald theme and a CSS Grid layout that adapts seamlessly across mobile, tablet, and desktop viewports.
+**Sticky Header:** Keeps search controls accessible at the top of the viewport even while scrolling through results.
+**Category Chips:** Offers predefined quick-selection tags (Nature, Architecture, Animals, etc.) to give users immediate inspiration.
 
-VisionVault is a lightweight web application that enables users to search, discover, and view high-resolution imagery across various categories in a clean, responsive layout.
-
-
-
-\## Part 1 Design Decisions
-
-1\. \*\*Dark Teal Theme \& Sticky Header\*\*: Built using a dark slate/teal color scheme (`#0f172a` and `#0d9488`) paired with a sticky header so users keep search controls accessible while scrolling.
-
-2\. \*\*Category Suggestion Chips\*\*: Included a row of clickable category chips (`Nature`, `Architecture`, `Abstract`) beneath the search bar to allow quick standard searches in one click.
-
-3\. \*\*Dedicated Reset \& Status Feedback\*\*: Added a "Clear" button alongside the search box and a result-count status area to give clear feedback before and after search queries are executed.
-
+## Design Decisions
+1. **Sticky Header:** Positioned the header as sticky so users do not need to scroll back to the top to change their search query after browsing long result pages.
+2. **Category Suggestions:** Integrated clickable tag chips directly under the header to lower friction for first-time visitors looking to explore popular visual topics instantly.
