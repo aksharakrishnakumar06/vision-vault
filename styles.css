@@ -10,11 +10,13 @@
   --radius: 8px;
 }
 
+
 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -24,11 +26,13 @@ body {
   padding-bottom: 2rem;
 }
 
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
 
 .sticky-header {
   position: sticky;
@@ -44,11 +48,13 @@ body {
   align-items: center;
 }
 
+
 .brand h1 {
   font-size: 1.75rem;
   color: var(--primary-color);
   text-align: center;
 }
+
 
 .brand .tagline {
   font-size: 0.875rem;
@@ -56,12 +62,14 @@ body {
   text-align: center;
 }
 
+
 .search-form {
   display: flex;
   gap: 0.5rem;
   width: 100%;
   max-width: 550px;
 }
+
 
 .sr-only {
   position: absolute;
@@ -74,6 +82,7 @@ body {
   border: 0;
 }
 
+
 #search-input {
   flex: 1;
   padding: 0.6rem 1rem;
@@ -85,9 +94,11 @@ body {
   outline: none;
 }
 
+
 #search-input:focus {
   border-color: var(--primary-color);
 }
+
 
 button {
   padding: 0.6rem 1.2rem;
@@ -97,14 +108,17 @@ button {
   cursor: pointer;
 }
 
+
 #search-btn {
   background-color: var(--primary-color);
   color: #000;
 }
 
+
 #search-btn:hover {
   background-color: var(--primary-hover);
 }
+
 
 #clear-btn {
   background-color: transparent;
@@ -112,10 +126,12 @@ button {
   border: 1px solid var(--border-color);
 }
 
+
 #clear-btn:hover {
   background-color: var(--card-bg);
   color: var(--text-main);
 }
+
 
 .chips-container {
   display: flex;
@@ -124,6 +140,7 @@ button {
   flex-wrap: wrap;
   margin: 1.5rem 0 1rem;
 }
+
 
 .chip {
   background-color: var(--card-bg);
@@ -134,10 +151,12 @@ button {
   border-radius: 20px;
 }
 
+
 .chip:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
 }
+
 
 .status-msg {
   text-align: center;
@@ -145,6 +164,7 @@ button {
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
 }
+
 
 .results-grid {
   display: grid;
