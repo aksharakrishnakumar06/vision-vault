@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionVault | Discover & Explore Visuals</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Branded Sticky Header -->
+  <header class="sticky-header">
+    <div class="logo-area">
+      <h1>VisionVault</h1>
+      <p class="tagline">Unlock a world of high-definition imagery instantly.</p>
+    </div>
+
+    <!-- Search Form -->
+    <form id="search-form">
+      <label for="search-input" class="sr-only">Search images</label>
+      <input 
+        id="search-input" 
+        type="search" 
+        placeholder="Type a topic to search..." 
+        required 
+      />
+      <button id="search-btn" type="submit">Search</button>
+      <!-- Feature 1: Clear button -->
+      <button id="clear-btn" type="reset">Clear</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Feature 2: Quick-pick category chips -->
+    <div class="category-row">
+      <span class="chip-label">Quick topics:</span>
+      <button type="button" class="chip">Nature</button>
+      <button type="button" class="chip">Architecture</button>
+      <button type="button" class="chip">Abstract</button>
+      <button type="button" class="chip">Minimalism</button>
+    </div>
+
+    <!-- Feature 3: Result-count placeholder -->
+    <div id="result-count" class="result-count">
+      Search for images to see results.
+    </div>
+
+    <!-- Empty State Message -->
+    <div id="empty-state" class="empty-state">
+      <p>Your search results will appear below.</p>
+    </div>
+
+    <!-- Responsive Grid Results Container (Empty target for Part 2) -->
+    <section id="results" class="results-grid"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
