@@ -1,2 +1,2 @@
-
-console.log("VisionVault Part 1 UI scaffold loaded successfully.");
+﻿// Part 1: Scaffold & UI Setup
+// Data fetching logic will be added in Part 2.
